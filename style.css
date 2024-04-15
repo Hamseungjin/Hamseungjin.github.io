@@ -10,12 +10,17 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background: brown;
     z-index: -10;
 }
 
 h1, h2, h3, h4 {
-	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: "Arial Black", sans-serif;;
+    font-size: 4em;
+    text-align: justify;
+    color: whitesmoke;
+    z-index: 1;
+    font-weight: bold;
+    text-shadow: 6px 2px 2px gray;
 }
 
 .container {
@@ -44,6 +49,7 @@ h1, h2, h3, h4 {
 .about-list {
     list-style: none;
     padding: 0;
+    font-size: 20px;
 }
 
 .projects-heading {
@@ -68,7 +74,7 @@ h1, h2, h3, h4 {
 
 .links-and-contact {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 100% 80%;
 }
 
 .links {
